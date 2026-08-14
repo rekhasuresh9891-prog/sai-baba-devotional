@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Om Sai Ram - Shirdi Sai Baba devotional website with daily messages, prayers, Aarti and Sai Satcharitra.">
+
+  <title>Om Sai Ram | Shirdi Sai Baba</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="nav container">
+
+      <a href="#home" class="brand">
+        ॐ <span>Om Sai Ram</span>
+      </a>
+
+      <button class="menu-btn"
+              id="menuBtn"
+              aria-label="Open menu">
+        ☰
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#daily">Daily Sai</a>
+        <a href="#aarti">Aarti</a>
+        <a href="#satcharitra">Sai Satcharitra</a>
+        <a href="#prayer">Prayer</a>
+        <a href="#shirdi">Shirdi</a>
+      </div>
+
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+
+        <div class="om">ॐ</div>
+
+        <p class="eyebrow">
+          SHRADDHA • SABURI
+        </p>
+
+        <h1>
+          Om Sai Ram
+        </h1>
+
+        <p class="hero-text">
+          A peaceful devotional space for every Sai Baba devotee.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a class="btn primary"
+             href="#daily">
+            Today's Sai Message
+          </a>
+
+          <a class="btn secondary"
+             href="#aarti">
+            Begin Prayer
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- WELCOME -->
+    <section class="welcome section">
+
+      <div class="container narrow">
+
+        <p class="eyebrow">
+          WELCOME, DEVOTEE
+        </p>
+
+        <h2>
+          Shirdi Sai Baba
+        </h2>
+
+        <p>
+          May Sai Baba's blessings bring peace, faith,
+          patience and compassion into your life.
+          Take a moment each day to remember Baba
+          and walk the path of Shraddha and Saburi.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- DAILY MESSAGE -->
+    <section class="daily section" id="daily">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            DAILY SAI
+          </p>
+
+          <h2>
+            Today's Message
+          </h2>
+
+        </div>
+
+
+        <div class="quote-card">
+
+          <div class="quote-mark">
+            “
+          </div>
+
+          <p id="dailyQuote">
+            Why fear when I am here?
+          </p>
+
+          <span id="quoteDay">
+            May Baba guide you today.
+          </span>
+
+          <button class="small-btn"
+                  id="newQuote">
+            Show another message
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- AARTI -->
+    <section class="cards section" id="aarti">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            DEVOTION
+          </p>
+
+          <h2>
+            Prayer & Aarti
+          </h2>
+
+        </div>
+
+
+        <div class="grid three">
+
+          <article class="card">
+
+            <div class="icon">
+              🪔
+            </div>
+
+            <h3>
+              Kakad Aarti
+            </h3>
+
+            <p>
+              Begin the morning with devotion
+              and remembrance of Sai Baba.
+            </p>
+
+            <button class="text-btn"
+                    onclick="showMessage('Kakad Aarti section is ready.')">
+              Open Aarti →
+            </button>
+
+          </article>
+
+
+          <article class="card">
+
+            <div class="icon">
+              🙏
+            </div>
+
+            <h3>
+              Sai Chalisa
+            </h3>
+
+            <p>
+              Spend a few peaceful minutes
+              in prayer and meditation.
+            </p>
+
+            <button class="text-btn"
+                    onclick="showMessage('Sai Baba Chalisa section is ready.')">
+              Read Chalisa →
+            </button>
+
+          </article>
+
+
+          <article class="card">
+
+            <div class="icon">
+              🎵
+            </div>
+
+            <h3>
+              Bhajans
+            </h3>
+
+            <p>
+              Create a collection of devotional
+              songs for your visitors.
+            </p>
+
+            <button class="text-btn"
+                    onclick="showMessage('Bhajan section is ready.')">
+              View Bhajans →
+            </button>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SAI SATCHARITRA -->
+    <section class="satcharitra section"
+             id="satcharitra">
+
+      <div class="container split">
+
+        <div>
+
+          <p class="eyebrow">
+            SACRED READING
+          </p>
+
+          <h2>
+            Sai Satcharitra
+          </h2>
+
+          <p>
+            Read and explore the life, teachings
+            and stories of Shirdi Sai Baba.
+          </p>
+
+
+          <div class="chapter-list">
+
+            <button onclick="showMessage('Chapter 1 is ready.')">
+              Chapter 1
+              <span>→</span>
+            </button>
+
+            <button onclick="showMessage('Chapter 2 is ready.')">
+              Chapter 2
+              <span>→</span>
+            </button>
+
+            <button onclick="showMessage('More chapters can be added later.')">
+              More Chapters
+              <span>→</span>
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div class="sacred-box">
+
+          <div>
+            ॐ
+          </div>
+
+          <h3>
+            Faith & Patience
+          </h3>
+
+          <p>
+            Shraddha and Saburi
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PRAYER -->
+    <section class="prayer section"
+             id="prayer">
+
+      <div class="container narrow">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            PRAYER
+          </p>
+
+          <h2>
+            Send a Prayer
+          </h2>
+
+          <p>
+            Write your prayer or intention below.
+            This demo keeps the information on your
+            device and does not send it to a server.
+          </p>
+
+        </div>
+
+
+        <form id="prayerForm"
+              class="prayer-form">
+
+          <label for="name">
+            Your Name
+          </label>
+
+          <input
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+            required
+          >
+
+
+          <label for="prayerText">
+            Your Prayer
+          </label>
+
+          <textarea
+            id="prayerText"
+            rows="5"
+            placeholder="Write your prayer..."
+            required>
+          </textarea>
+
+
+          <button
+            class="btn primary"
+            type="submit">
+            🙏 Submit Prayer
+          </button>
+
+          <p class="form-result"
+             id="formResult">
+          </p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- SHIRDI -->
+    <section class="shirdi section"
+             id="shirdi">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            HOLY PLACE
+          </p>
+
+          <h2>
+            Shirdi
+          </h2>
+
+          <p>
+            A sacred destination remembered
+            by devotees around the world.
+          </p>
+
+        </div>
+
+
+        <div class="grid three">
+
+          <div class="place">
+
+            <span>
+              🛕
+            </span>
+
+            <h3>
+              Shirdi Temple
+            </h3>
+
+            <p>
+              Learn about the holy places
+              associated with Sai Baba.
+            </p>
+
+          </div>
+
+
+          <div class="place">
+
+            <span>
+              🕯️
+            </span>
+
+            <h3>
+              Dwarkamai
+            </h3>
+
+            <p>
+              A place deeply connected with
+              Baba's life and teachings.
+            </p>
+
+          </div>
+
+
+          <div class="place">
+
+            <span>
+              🌼
+            </span>
+
+            <h3>
+              Chavadi
+            </h3>
+
+            <p>
+              Explore the history and traditions
+              of Shirdi.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="container footer-inner">
+
+      <div>
+
+        <strong>
+          ॐ Om Sai Ram
+        </strong>
+
+        <p>
+          A devotional project created
+          with love and faith.
+        </p>
+
+      </div>
+
+
+      <p>
+        © <span id="year"></span>
+        Om Sai Ram
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- MESSAGE POPUP -->
+  <div class="toast"
+       id="toast"
+       role="status">
+  </div>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
