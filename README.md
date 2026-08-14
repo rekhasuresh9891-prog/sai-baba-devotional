@@ -1,1 +1,0 @@
-# sai-baba-devotional
